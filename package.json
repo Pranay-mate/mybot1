@@ -8,16 +8,8 @@
     "start:server": "node ./src/chatux-server.js",
     "start:web": "webpack-dev-server"
   },
-  "author": "Tom Misawa <riversun.org@gmail.com> (https://github.com/riversun)",
+  "author": "Pranay",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/riversun/chatux-example.git"
-  },
-  "bugs": {
-    "url": "https://github.com/riversun/chatux-example/issues"
-  },
-  "homepage": "https://github.com/riversun/chatux-example#readme",
   "devDependencies": {
     "@babel/core": "^7.1.5",
     "@babel/preset-env": "^7.1.5",
