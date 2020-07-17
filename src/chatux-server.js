@@ -11,7 +11,6 @@ if (app.get('env') === 'production') {
     sess.cookie.secure = true; // serve secure cookies
 }
 
-app.use(express.static(__dirname + '/public'));
 
 
 // set mddielware for CORS
@@ -20,11 +19,7 @@ app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Headers", "Origin, Content-Type, Accept");
     next();
 });
-app.get('/', function(req, res) {
 
-    // ejs render automatically looks in the views folder
-    res.render('index');
-});
 //provide json api
 app.set('json spaces', 2);
 app.get('/chat', function (req, res) {
