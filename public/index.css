@@ -1,0 +1,138 @@
+body{
+  background-color: #8b8c8a;
+  background-image: url("https://www.transparenttextures.com/patterns/french-stucco.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+}
+h1{
+  line-height: 70px;
+  font-size: 2.5rem;
+  background-color: black;
+  margin: 0px;
+  color: #D3D3D3;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.header {
+  text-align: center;
+  overflow: hidden;
+  background-color: 	#B0B0B0;
+  padding: 20px 10px;
+  margin: 0px;
+  padding: 0px;
+
+}
+.header a {
+  text-decoration: none;
+  color: #D3D3D3;
+}
+.header a:hover {
+  color: 			#00FFFF	;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 33px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+
+}
+.footer img{
+  position: relative;
+  top: 7px;
+
+}
+.header img{
+  position: relative;
+  top: 10px;
+
+}
+.bot{
+  width: 100%;
+  max-width: 400px;
+ height: auto;
+  position: relative;
+  top: 150px;
+}
+
+
+
+
+/* General CSS Setup */
+body{
+  font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
+}
+
+/* container */
+.container {
+  padding: 5% 5%;
+}
+
+/* CSS talk bubble */
+.talk-bubble {
+	margin: 40px;
+  display: inline-block;
+  position: relative;
+  bottom: 15em;
+	width: 200px;
+	height: auto;
+	background-color: lightyellow;
+}
+.border{
+  border: 8px solid #666;
+}
+.round{
+  border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+
+}
+
+
+/*Right triangle, placed bottom left side slightly in*/
+.tri-right.border.btm-left:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: -8px;
+  right: auto;
+  top: auto;
+	bottom: -30px;
+	border: 32px solid;
+	border-color: transparent transparent transparent #666;
+}
+.tri-right.btm-left:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 0px;
+  right: auto;
+  top: auto;
+	bottom: -20px;
+	border: 22px solid;
+	border-color: transparent transparent transparent lightyellow;
+}
+
+
+/* talk bubble contents */
+.talktext{
+  padding: 1em;
+	text-align: left;
+  line-height: 1.5em;
+}
+.talktext p{
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
